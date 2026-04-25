@@ -1,7 +1,5 @@
 package com.AlyaaTalaat.mathsprint.model
 
-import kotlin.math.abs
-
 data class Question(
     val expression: String,
     val answer: Int

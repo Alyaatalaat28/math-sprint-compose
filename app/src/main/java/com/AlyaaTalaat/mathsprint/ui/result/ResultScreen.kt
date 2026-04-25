@@ -11,12 +11,11 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
-import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.tv.material3.OutlinedButtonDefaults
 import com.AlyaaTalaat.mathsprint.viewmodel.GameViewModel
-
+import androidx.compose.foundation.BorderStroke
 @Composable
 fun ResultScreen(
     viewModel: GameViewModel,
@@ -116,11 +115,13 @@ fun ResultScreen(
 
                 OutlinedButton(
                     onClick = onHome,
-                    modifier = Modifier.fillMaxWidth().height(56.dp),
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .height(56.dp),
                     shape = RoundedCornerShape(16.dp),
-                    colors = OutlinedButtonDefaults.outlinedButtonColors(contentColor = Color.White),
-                    border = ButtonDefaults.outlinedButtonBorder.copy(
-                        brush = Brush.horizontalGradient(listOf(Color.White.copy(alpha = 0.3f), Color.White.copy(alpha = 0.3f)))
+                    border = BorderStroke(1.dp, Color.White.copy(alpha = 0.3f)),
+                    colors = ButtonDefaults.outlinedButtonColors(
+                        contentColor = Color.White
                     )
                 ) {
                     Text("Change Settings", fontSize = 16.sp, fontWeight = FontWeight.SemiBold)
