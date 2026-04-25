@@ -1,6 +1,7 @@
 package com.AlyaaTalaat.mathsprint.viewmodel
 
 import android.app.Application
+import android.content.Context
 import androidx.datastore.core.DataStore
 import androidx.datastore.preferences.core.Preferences
 import androidx.datastore.preferences.core.edit
@@ -18,7 +19,7 @@ import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.launch
 
-private val android.content.Context.dataStore:
+private val Context.dataStore:
         DataStore<Preferences> by preferencesDataStore(name = "math_sprint_prefs")
 
 class GameViewModel(application: Application) : AndroidViewModel(application) {
