@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace = "com.AlyaaTalaat.mathsprint"
+    namespace = "com.alyaatalaat.mathsprint"
     compileSdk =36
 
     defaultConfig {

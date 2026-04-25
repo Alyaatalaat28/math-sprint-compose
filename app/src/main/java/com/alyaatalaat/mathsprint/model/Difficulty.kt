@@ -1,4 +1,4 @@
-package com.AlyaaTalaat.mathsprint.model
+package com.alyaatalaat.mathsprint.model
 
 enum class Difficulty(
     val label: String,

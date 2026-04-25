@@ -1,4 +1,4 @@
-package com.AlyaaTalaat.mathsprint.model
+package com.alyaatalaat.mathsprint.model
 
 data class Question(
     val expression: String,

@@ -1,4 +1,4 @@
-package com.AlyaaTalaat.mathsprint.ui.result
+package com.alyaatalaat.mathsprint.ui.result
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
@@ -13,7 +13,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.AlyaaTalaat.mathsprint.viewmodel.GameViewModel
+import com.alyaatalaat.mathsprint.viewmodel.GameViewModel
 import androidx.compose.foundation.BorderStroke
 @Composable
 fun ResultScreen(

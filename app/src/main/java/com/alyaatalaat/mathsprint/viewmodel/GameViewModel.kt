@@ -1,4 +1,4 @@
-package com.AlyaaTalaat.mathsprint.viewmodel
+package com.alyaatalaat.mathsprint.viewmodel
 
 import android.app.Application
 import android.content.Context
@@ -9,9 +9,9 @@ import androidx.datastore.preferences.core.intPreferencesKey
 import androidx.datastore.preferences.preferencesDataStore
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.viewModelScope
-import com.AlyaaTalaat.mathsprint.model.Difficulty
-import com.AlyaaTalaat.mathsprint.model.Operation
-import com.AlyaaTalaat.mathsprint.model.Question
+import com.alyaatalaat.mathsprint.model.Difficulty
+import com.alyaatalaat.mathsprint.model.Operation
+import com.alyaatalaat.mathsprint.model.Question
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.MutableStateFlow

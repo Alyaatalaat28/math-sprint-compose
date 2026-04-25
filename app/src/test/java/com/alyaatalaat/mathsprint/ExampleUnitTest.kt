@@ -1,4 +1,4 @@
-package com.AlyaaTalaat.mathsprint
+package com.alyaatalaat.mathsprint
 
 import org.junit.Test
 

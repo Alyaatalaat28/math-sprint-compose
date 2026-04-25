@@ -1,4 +1,4 @@
-package com.AlyaaTalaat.mathsprint.ui.home
+package com.alyaatalaat.mathsprint.ui.home
 
 import androidx.compose.animation.animateColorAsState
 import androidx.compose.foundation.background
@@ -16,9 +16,9 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.AlyaaTalaat.mathsprint.model.Difficulty
-import com.AlyaaTalaat.mathsprint.model.Operation
-import com.AlyaaTalaat.mathsprint.viewmodel.GameViewModel
+import com.alyaatalaat.mathsprint.model.Difficulty
+import com.alyaatalaat.mathsprint.model.Operation
+import com.alyaatalaat.mathsprint.viewmodel.GameViewModel
 
 @Composable
 fun HomeScreen(

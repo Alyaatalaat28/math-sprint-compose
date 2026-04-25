@@ -1,4 +1,4 @@
-package com.AlyaaTalaat.mathsprint.model
+package com.alyaatalaat.mathsprint.model
 
 enum class Operation(val label: String, val symbol: String) {
     ADDITION("Addition", "+"),

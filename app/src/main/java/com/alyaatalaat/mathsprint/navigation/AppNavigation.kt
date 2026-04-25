@@ -1,14 +1,14 @@
-package com.AlyaaTalaat.mathsprint.navigation
+package com.alyaatalaat.mathsprint.navigation
 
 import androidx.compose.runtime.Composable
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
-import com.AlyaaTalaat.mathsprint.ui.home.HomeScreen
-import com.AlyaaTalaat.mathsprint.ui.game.GameScreen
-import com.AlyaaTalaat.mathsprint.ui.result.ResultScreen
-import com.AlyaaTalaat.mathsprint.viewmodel.GameViewModel
+import com.alyaatalaat.mathsprint.ui.home.HomeScreen
+import com.alyaatalaat.mathsprint.ui.game.GameScreen
+import com.alyaatalaat.mathsprint.ui.result.ResultScreen
+import com.alyaatalaat.mathsprint.viewmodel.GameViewModel
 
 sealed class Screen(val route: String) {
     object Home   : Screen("home")

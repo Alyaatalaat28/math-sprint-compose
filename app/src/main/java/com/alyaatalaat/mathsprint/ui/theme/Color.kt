@@ -1,4 +1,4 @@
-package com.AlyaaTalaat.mathsprint.ui.theme
+package com.alyaatalaat.mathsprint.ui.theme
 
 import androidx.compose.ui.graphics.Color
 
